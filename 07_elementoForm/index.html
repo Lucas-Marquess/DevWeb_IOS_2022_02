@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Elemento Form</title>
+    </head>
+    <body>
+        <!--Estrutura do elemento Form-->
+        <form method="lucas.marquesm22@gmail.com">
+
+        <input required/>
+        <input type="submit" value="Entrar">
+
+        <!--Atributo Checkbox do atributo type-->
+        <p>Escolha o Estado em que você quer morar</p>
+        <label for="tor">Toronto</label>
+        <input id="tor" type="checkbox"/>
+
+        <label for="tex">Texas</label>
+        <input id="tex" type="checkbox"/>
+
+        <label for="cal">California</label>
+        <input id="cal" type="checkbox"/>
+
+        <!--Valor RADIO para o atributo type-->
+        <p>Selecione a vacina</p>
+        <label for="meg">Megatron</label>
+        <input type="radio" id="meg" name="tipo"/>
+
+        <label for="bom">BomBomBi</label>
+        <input type="radio" id="bom" name="tipo"/>
+
+        <label for="iro">Bombeiro</label>
+        <input type="radio" id="iro" name="tipo"/>
+
+        <!--Elemento select. datalist e option-->
+        <label for="pao">Ecolha o seu pão</label>
+        <select name="pao" id="pao">
+            <option value="forma">Forma</option>
+            <option value="bronha">Bronha</option>
+            <option value="frances">Frances</option>
+            <option value="baguete">Bagute</option>
+        </select>
+            
+           <label for="">Times</label>
+           <input autocomplete="on" list="time" name="times" id="times">
+           <datalist id="time"> 
+            <option value="Penapolence">Penapolence</option>
+            <option value="Portuguesa">Portuguesa</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Chapeco">Chapeco</option>
+            <option value="Piaui">Piaui</option>
+           </datalist>
+
+        </form>
+    </body>
+</html>

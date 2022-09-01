@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet and Love</title>
+</head>
+<body>
+    <main>
+        <form method="lucas.marquesm22@gmail.com">
+            <h2>Preencha seus dados</h2>
+            <input type="text" name="nome" placeholder="Nome"/>
+            <br>
+            <input type="number" name="idade" placeholder="Idade"/>
+            <br>
+            <input type="email" name="email" placeholder="E-mail"/>
+            <br>
+            <h2>Você nos indicaria para algum amigo?</h2>
+            <label for="sim">Sim</label>
+            <input id="sim" type="radio" name="indicação" required>
+            <label for="não">Não</label>
+            <input id="não" type="radio" name="indicação" required>
+            <h2>O que lhe mais agradou em nossa loja?</h2>
+            <label for="doces">Doces</label>
+            <input id="doces" type="checkbox"/>
+            <label for="delivery">Delivery</label>
+            <input id="delivery" type="checkbox"/>
+            <label for="ambiente">Ambiente</label>
+            <input id="ambiente" type="checkbox"/>
+            <label for="atendimento">Atendimento</label>
+            <input id="atendimento" type="checkbox"/>
+            <label for="valores">Valores</label>
+            <input id="valores" type="checkbox"/>
+            <h2>Qual foi seu último pedido conosco?</h2>
+            <input autocomplete="on" list="pedido" name="produtos" id="produtos" required>
+            <datalist id="pedido">
+                <option value="Beijinho">Beijinho</option>
+                <option value="Brigadeiro">Brigadeiro</option>
+                <option value="Bem-casado">Bem-casado</option>
+                <option value="Pudim">Pudim</option>
+                <option value="Pavê">Pavê</option>
+                <option value="Bolo">Bolo</option>
+                <option value="Café">Café</option>
+                <option value="Sorvete">Sorvete</option>
+            </datalist>
+                <h2>Em de nossa unidades você foi atendido?</h2>
+                <select name="lojas" id="lojas" required>
+                    <option value=""></option>
+                    <option value="acli">Aclimação</option>
+                    <option value="libe">Liberdade</option>
+                    <option value="tatu">Tatuapé</option>
+                    <option value="sãoj">São Joaquim</option>
+                </select>
+                <br>
+                <input type="submit" name="Enviar">
+            </datalist>
+        </form>
+    </main>
+</body>
+</html>
