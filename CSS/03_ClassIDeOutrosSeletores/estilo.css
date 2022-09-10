@@ -1,0 +1,63 @@
+*{
+    background-color: darkmagenta;
+}
+
+
+.pipoca{
+    color:purple ;
+}
+h1{
+    color: aqua;
+    background-color: black;
+}
+
+section .cadeira{
+    background-color: brown;
+    border: 4px solid black;
+}
+section .cinema{
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+}
+section .testosterona{
+    color: grey;
+    background-color:beige ;
+    border: 2px solid greenyellow;
+}
+
+#paoDeQueijo{
+    background-color: blueviolet;
+}
+
+section .treta{
+    border: 2px solid black;
+    color: black;
+    background-color: blue;
+    text-align: center;
+}
+
+#primeiro_nome{
+    background-color: crimson;
+    text-align: center;
+}
+
+#segundoNome{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+article h4{
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;
+    background-color: wheat;
+}
+
+
+
+
+
+
+ 
+
