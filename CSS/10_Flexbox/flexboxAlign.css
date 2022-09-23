@@ -1,0 +1,80 @@
+@charset "utf-8";
+body{
+    background-image: url(./IMG/sushant-poudel-playstation-logo.jpg);
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container div {
+    
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.container div {
+    
+    margin: 3px;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.item-box-1 {
+    flex: 1;
+    order: 1;
+    color: white;
+    align-self: center;
+    border: 2px solid black;
+}
+
+.item-box-2 {
+    flex: 1;
+    order: 1;
+    border: 2px solid black;
+}
+
+.item-box-3 {
+    flex: 1;
+    order: 1;
+    border: 2px solid black;
+}
+
+.item-box-4 {
+    flex: 1;
+    order: 1;
+    align-self: center;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+img{
+    width: 250PX;
+    height: 150px;
+}
+
+footer{
+    margin-top: 580px;
+    font-size: 17px;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.botao{
+    display: flex;
+}
+
