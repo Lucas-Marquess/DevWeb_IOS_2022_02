@@ -1,34 +1,74 @@
 .container{
     display:grid;
     border: 1px solid black;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "pipoca pipoca pipoca pipoca"
-                         " pipoca2 pipoca2 . pipoca3"
-                         " pipoca4 pipoca4 pipoca4 pipoca5";
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;  
+    
+    /* grid-auto-rows: 100px; */
+    /* column-gap: 10px;
+    row-gap: 15px; */
+    /* grid-gap:  15px 10px; */
+    /* grid-template-areas: "pipoca pipoca pipoca pipoca"
+    " pipoca2 pipoca2 . pipoca3"
+    " pipoca4 pipoca4 pipoca4 pipoca5"; */
+                                           
+                                             /*  Propriedade Justify-items */
+                                               /* justify-items: start;  */
+                                               /* justify-items: end; */
+                                               /* justify-items: center; */
+                                               /* justify-items: stretch; */
+
+        /* Propriedade align-items */
+          /* align-items: start; */
+          /* align-items: end; */
+          /* align-items: center; */
+          /* align-items: stretch; */
+
+/*  Propriedade place-items */
+  /* place-items: stretch center; Primeiro valor é relacionado a vertical e o segundo valor é relacionado a horizontal */
+
+  /*  Propriedade justify-content */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: stretch; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+            /* Tudo que tiver align vamos mecher com seus filhos na vertical. E toda propriedade que tiver justify será para mecher em seus filhos na horizontal. */
+
+            /* Propriedade align-content */
+            /* align-content: center ; */
+            /* align-content: end; */
+            /* align-content: start ; */
+            /* align-content: stretch ; */
+            /* align-content: space-around ; */
+            /* align-content: space-between ; */
+            /* align-content: space-evenly ; */
 }
 
 .item-1{
-    grid-area: pipoca;
+    /* grid-area: pipoca; */
     border: 1px solid maroon;
 }
 
 .item-2{
-    grid-area: pipoca2;
+    /* grid-area: pipoca2; */
     border: 1px solid coral;
 }
 
 .item-3{
-    grid-area: pipoca3;
+    /* grid-area: pipoca3; */
     border: 1px solid yellowgreen;
 }
 
 .item-4{
-    grid-area: pipoca4;
+    /* grid-area: pipoca4; */
     border: 1px solid orange;
 }
 
 .item-5{
-    grid-area: pipoca5;
+    /* grid-area: pipoca5; */
     border: 1px solid blue;
 }
