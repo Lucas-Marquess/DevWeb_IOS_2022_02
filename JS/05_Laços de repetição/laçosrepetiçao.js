@@ -7,14 +7,20 @@ while (contador <= 50) {
 
 
 // do-while-Exercicio 2
-let i = 10,
-    text = '';
+let contagem = 10,
+    regressiva = '';
+
 do {
-    text += `O número é ${i}\n`;
-    i++;
-} while (i < 0);
-console.log(text);
+    regressiva += ` contagem ${contagem}\n`;
+    contagem--;
+} while (contagem >= 0);
+console.log(regressiva);
 
+// pares-Exercicio 3
 
-// for-Exercicio 3
-for (let i = 0; i < 10; i++) console.log(`Laço For número: ${i}`);
+for (let i = 1; i < 100; i++) {
+    if ( i % 2 == 1) {
+        i = i + 1;
+    }
+    console.log(` Números pares ${i}`);
+}
