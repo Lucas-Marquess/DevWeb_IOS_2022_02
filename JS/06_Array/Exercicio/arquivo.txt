@@ -1,0 +1,1 @@
+Os Objetos no JavaScript são propriedades e métodos e podem conter todos os outros tipos de dados do JavaScript, como strings e números.
