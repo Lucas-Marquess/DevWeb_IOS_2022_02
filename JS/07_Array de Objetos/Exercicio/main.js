@@ -1,6 +1,7 @@
 const alunos = [
     {
         Nome: "Lucas",
+        Idade: "17 Anos",
         Nota: [9, 6, 8, 7],
         Endereço: {
             Rua: 'Rua Macuxis',
@@ -8,11 +9,14 @@ const alunos = [
             Cidade: 'São Paulo',
             Estado: 'SP',
         },
+        Escola: "Cepav",
         Série: "3° do Ensino Médio",
-        Sala: "10",
+        Sala: "3",
+        Responsavel: "Tania"
     },
     {
         Nome: "Vitor",
+        Idade: "17 Anos",
         Nota: [5, 7, 6, 8],
         Endereço: {
             Rua: 'Arroio do tigre',
@@ -20,12 +24,15 @@ const alunos = [
             Cidade: 'São Paulo',
             Estado: 'SP',
         },
+        Escola: "Cloves Graciano",
         Série: "3° do Ensino Médio",
-        Sala: "10",
+        Sala: "7",
+        Responsavel: "Jair Francisco"
 
     },
     {
         Nome: "Ana",
+        Idade: "17 Anos",
         Nota: [10, 7, 9, 6],
         Endereço: {
             Rua: 'Avenida Imirim',
@@ -33,8 +40,10 @@ const alunos = [
             Cidade: 'São Paulo',
             Estado: 'SP',
         },
+        Escola: "Leme do Prado",
         Série: "3° do Ensino Médio",
         Sala: "10",
+        Responsavel: "Juliana"
 
     },
 ];
