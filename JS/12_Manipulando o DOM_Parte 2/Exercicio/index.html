@@ -2,27 +2,28 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <link rel="shortcut icon" href="#" />
-        <title>Exercicio Manipulando o DOM - PT.2</title>
+
+        <title>Exercício 12 Manipulando O Dom Part 2</title>
     </head>
+
     <body>
-        <h2 >Exercicio 12 - Minha página</h2>
+        <h2 id="titulo">Página em Construção</h2>
         <ul id="items" class="list">
-            <li class="item titulo" id="item1" >Item 1</li>
+            <li class="item" id="item1">Item 1</li>
             <li class="item" id="item2">Item 2</li>
-            <li class="item" id="item 3"">Item 3</li>
-            <li class="item" id="item 4"">Item 4</li>
-            <li class="item" name="fitem">Item 5</li>
-            <li class="item" name="fitem">Item 6</li>
+            <li class="item" id="item3">Item 3</li>
+            <li class="item" id="item4" name="fitem">Item 4</li>
+            <li class="item" id="item5">Item 5</li>
+            <li class="item" id="item6">Item 6</li>
         </ul>
 
-        <button onclick="eventClique()">Alterar cor</button>
-        <button onclick="eventClique2()">Negrito</button>
-        <button onclick="eventClique3()">Efeito Zebrado</button>
-        <button onclick="eventClique4()">BorderBottom</button>
-        <button onclick="eventClique5()">Remover</button>
-        <button onclick="eventClique6()">Recuperar</button>
+        <button onclick="background()">Cor</button>
+        <button onclick="font()">Fonte</button>
+        <button onclick="zebrado()">Zebrado</button>
+        <button onclick="bottom()">Sublinhado</button>
+        <button onclick="delet()">Remover</button>
+        <button onclick="reset()">Voltar</button>
 
-        <script src="main.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>

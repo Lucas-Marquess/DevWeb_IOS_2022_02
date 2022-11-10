@@ -1,17 +1,41 @@
-// 1 - Alterando backgroundColor
-function eventClique() {
-    console.log('titulo');
-
-    const titulo = document.getElementById('titulo');
-    titulo.style.backgroundColor = 'yellow';
+function background() {
+  let item1 = document.getElementById('item1');
+  item1.style.backgroundColor = 'blue';
+  console.log(item1);
 }
 
-// 2 - Negrito
-function eventClique2() {
-    console.log('#negrito');
+function font() {
+  let item2 = document.getElementsByClassName('item');
+  item2[1].style.fontWeight = 'bold';
+  console.log(item2);
+}
 
-    let items = document.getElementsByClassName('item');
-    console.log(items);
-    console.log(items[4]);
-    items[4].style.fontWeight = 'bold';
+function zebrado() {
+  let li = document.getElementsByTagName('li');
+  console.log(li);
+  for (let i = 0; i < li.length; i++) {
+      if (i % 2) li[i].style.backgroundColor = 'darkgray';
+      else li[i].style.backgroundColor = 'fff';
+  }
+  console.log(li)
+}
+
+function bottom() {
+  let nome = document.getElementsByName('fitem');
+  nome[0].style.borderBottom = 'solid 5px red';
+  console.log(nome);
+}
+
+let item5 = document.getElementById('item5');
+
+function delet(){
+  item5.remove();
+}
+
+let lista = document.getElementById('items');
+let item4 = document.getElementById('item4');
+
+function reset(){
+  lista.insertBefore(item5, item4.nextSibling);
+  item5.textContent = 'Item recuperado';
 }
