@@ -3,16 +3,18 @@
     margin: 0;
 }
 
+
 .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+    column-gap: normal;
+    
 }
 
 .card {
-    width: 250px;
+    width: 300px;
     background: #f1f1f1;
-    margin: 25px;
     height: 470px;
 }
 
