@@ -138,7 +138,7 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #e20707;
 }
 
 .input-box label,
