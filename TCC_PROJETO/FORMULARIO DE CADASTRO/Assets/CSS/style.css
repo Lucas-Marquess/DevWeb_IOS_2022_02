@@ -212,7 +212,6 @@ body {
         width: 90%;
         height: auto;
     }
-
     .input-group {
         flex-direction: column;
         z-index: 5;
@@ -221,19 +220,15 @@ body {
         overflow-y: scroll;
         flex-wrap: nowrap;
     }
-
     .gender-inputs {
         margin-top: 2rem;
     }
-
     .gender-group {
         flex-direction: column;
     }
-    
     .gender-title h6 {
         margin: 0;
     }
-
     .gender-input {
         margin-top: 0.5rem;
     }
