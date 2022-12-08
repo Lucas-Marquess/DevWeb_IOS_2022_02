@@ -1,1 +1,25 @@
 . O que é Spring ?
+Spring é um framework open source para o JAVA, trata-se de um framework não intrusivo, 
+baseado  nos padrões de projeto inversão de controle e injeção de dependência.
+
+. O quê é Hibernate ?
+É uma ferramenta de mapeamento de objeto-relacional para a linguagem de programação Java. 
+Ele fornece uma estrutura para mapear um modelo de domínio orientado a objetos para um banco de dados 
+relacional. 
+
+. o quê é JVM, JDK e JRE ?
+Ele é um conjunto de utilitários que permitem criar sistemas de software para a plataforma Java. Ele 
+inclui o JRE, o JVM, um conjunto de classes de API, compilador Java e arquivos necessários para criar 
+aplicações.
+    JVM (Java Virtual Machine) - é a Máquina Virtual do Java reponsável por executar o bytecode.
+    JRE (Java Runtime Environment) - Ambiente de Execução do Java que fornece as bibliotecas padrões do Java 
+    para o JDK compilar o seu código e para a JVM executar o seu programa.
+
+. O quê é o Java e por qual motivo foi criado ?
+Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez pela Sun 
+Microsystems em 1995. O objetivo inicial do projeto era de antecipar as tendências tecnológicas futuras.
+
+. Qual a diferença entre JSE, JME e JEE ?
+O JSE é o ambiente de desenvolvimento mais utilizado, sendo utilizado em Servidores e PC´s, o JEE 
+voltada para redes, internet e intranets e o JME é ambiente para desenvolvimento de aplicações para 
+dispositivos móveis como celulares.
