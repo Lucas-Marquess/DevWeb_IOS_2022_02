@@ -1,0 +1,7 @@
+O que é o React?
+React é uma Biblioteca que tem como função facilitar a conexão dos elementos da pagína, tornando o 
+código mais limpo e menos repetitivo.
+
+Diferença de Biblioteca e Framework?
+Com a biblioteca você controla onde vai chama-la, e com o framework, ele esta na frente e é o encarregado
+disso.
